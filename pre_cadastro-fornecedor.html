@@ -1,0 +1,171 @@
+<!DOCTYPE HTML>
+<!--
+	Landed by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>DELIV - Pré-Cadastro de Fornecedor</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body>
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<header id="header">
+					<h1 id="logo"><a href="index.html"><img src="images/logo_deliv.png" /></a></h1>
+					<nav id="nav">
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li>
+								<a href="#">Quem Somos</a>
+								<ul>
+									<li><a href="left-sidebar.html">Left Sidebar</a></li>
+									<li><a href="right-sidebar.html">Right Sidebar</a></li>
+									<li><a href="no-sidebar.html">No Sidebar</a></li>
+									<li>
+										<a href="#">Submenu</a>
+										<ul>
+											<li><a href="#">Option 1</a></li>
+											<li><a href="#">Option 2</a></li>
+											<li><a href="#">Option 3</a></li>
+											<li><a href="#">Option 4</a></li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+							<li><a href="elements.html">Funcionamento</a></li>
+							<li><a href="elements.html">Entregador</a></li>
+							<li><a href="pre_cadastro-fornecedor.html" class="button special">Fornecedor</a></li>
+						</ul>
+					</nav>
+				</header>
+
+			<!-- Main -->
+				<div id="main" class="wrapper style1">
+					<div class="container">
+						<header class="major">
+							<h2>Pré-Cadastro</h2>
+							<p>Informe-nos seus dados para a avaliação do pré-cadastro</p>
+						</header>
+
+						<!-- Form -->
+							<section>
+								<h3>Informações Básicas</h3>
+								<form method="post" action="#">
+									<div class="row uniform 50%">
+										<div class="4u 12u$(medium)">
+											<input type="radio" id="pessoa-juridica" name="priority" checked>
+											<label for="pessoa-juridica">Pessoa Jurídica</label>
+										</div>
+										<div class="4u 12u$(medium)">
+											<input type="radio" id="pessoa-fisica" name="priority">
+											<label for="pessoa-fisica">Pessoa Física</label>
+										</div>
+										<div class="4u$ 12u$(medium)">
+											<input type="radio" id="ong" name="priority">
+											<label for="ong">Organização Não-Governamental</label>
+										</div>
+										<div class="6u 12u$(xsmall)">
+											<input type="text" name="name" id="phone" value="" placeholder="Telefone" />
+										</div>
+										<div class="6u 12u$(xsmall)">
+											<input type="text" name="name" id="name" value="" placeholder="Nome / Nome da Empresa" />
+										</div>
+										<div class="6u 12u$(xsmall)">
+											<input type="text" name="cnpj" id="cnpj" value="" placeholder="CPF / CNPJ" />
+										</div>
+										<div class="6u 12u$(xsmall)">
+											<input type="email" name="email" id="email" value="" placeholder="Email" />
+										</div>
+										<div class="12u$">
+											<input type="text" name="titulo-eleitor" id="titulo-eleitor" value="" placeholder="Título de Eleitor" />
+											<!--Combobox-->
+											<!--<div class="select-wrapper">
+												<select name="category" id="category">
+													<option value="">- Category -</option>
+													<option value="1">Manufacturing</option>
+													<option value="1">Shipping</option>
+													<option value="1">Administration</option>
+													<option value="1">Human Resources</option>
+												</select>
+											</div>-->
+											<!---->
+										</div>
+
+										<div class="6u 12u$(xsmall)">
+											<input type="text" name="senha" id="senha" value="" placeholder="Senha" />
+										</div>
+										<div class="6u 12u$(xsmall)">
+											<input type="text" name="repetir-senha" id="repetir-senha" value="" placeholder="Repetir Senha" />
+										</div>
+
+										<div class="6u 12u$(xsmall)">
+											<input type="text" name="cep" id="cep" value="" placeholder="CEP" />
+										</div>
+										<div class="6u 12u$(xsmall)">
+											<input type="text" name="endereco" id="endereco" value="" placeholder="Endereço" />
+										</div>
+
+										<!--Mapa-->
+										<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d122808.87934474862!2d-48.03023934179683!3d-15.868288399999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a2faca20d1d2f%3A0x99b6600eca1d4ecc!2sAdministra%C3%A7%C3%A3o+Regional+do+Park+Way!5e0!3m2!1spt-BR!2sbr!4v1448708563615" height="600" frameborder="0" style="border:0" allowfullscreen class="12u$"></iframe>
+
+										<div class="12u$">
+											<input type="text" name="complemento" id="complemento" value="" placeholder="Complemento" />
+										</div>
+
+										<div class="12u$">
+											<textarea name="observacoes" id="observacoes" placeholder="Observacoes" rows="6"></textarea>
+										</div>
+
+										<div class="6u 12u$(medium)">
+											<input type="checkbox" id="termos" name="termos">
+											<label for="termos">Aceitos os temos de contrato</label>
+										</div>
+
+										<div class="12u$">
+											<ul class="actions">
+												<li><input type="reset" value="Apagar" /></li>
+												<li><input type="submit" value="Registrar" class="special" /></li>
+											</ul>
+										</div>
+									</div>
+								</form>
+							</section>
+
+
+			<!-- Footer -->
+				<footer id="footer">
+					<ul class="icons">
+						<li><a href="#" class="icon alt fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="#" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
+						<li><a href="#" class="icon alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+						<li><a href="#" class="icon alt fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="#" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
+						<li><a href="#" class="icon alt fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+					<ul class="copyright">
+						<li>&copy; DELIV. Todos os direitos reservados.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</footer>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
